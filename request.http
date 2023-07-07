@@ -1,0 +1,20 @@
+###
+GET https://idat-db.onrender.com/cursos/all
+
+###
+POST  https://idat-db.onrender.com/cursos/add
+Content-Type: application/x-www-form-urlencoded
+
+nombre=Matematica&creditoss=8
+
+###
+DELETE  https://idat-db.onrender.com/cursos/del?id=1
+
+###
+PUT  https://idat-db.onrender.com/cursos/edit
+Content-Type: application/x-www-form-urlencoded
+
+id=2&nombre=Java&creditos=6
+
+###
+GET https://idat-db.onrender.com/cursos/get/2
